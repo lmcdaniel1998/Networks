@@ -1,0 +1,29 @@
+Lucas McDaniel	Lab Time: Noon
+
+Chat Programs:
+
+Building:
+	type 'make' or 'make all' to build server and cclient programs
+
+Usage:
+	Server:
+		can take in one input specifying the server socket
+		>> ./server [socket num]
+
+	Cclient:
+		run with following input:
+		>> ./cclient [client name] [server name] [server port]
+
+		Once running the client has 4 differnet command options:
+
+		1. %m or %M [num destination clients] [destination client] ... [message]
+			- Will send the message to all destination clients > 9
+
+		2. %b or %B [message]
+			- Will broadcast message to all other clients connected to server
+
+		3. %l or %L
+			- Will list all clients connected to server
+
+		4. %e or %E
+			- Will disconnect client from the server
