@@ -1,0 +1,34 @@
+Author: Luke McDaniel
+Institution: California PolyTechnic State University
+Course: CPE 464-01
+Lab Time: 9am
+Assignment: Program 1
+
+Source Files:
+	Makefile
+	trace.c
+	extractHeader.c
+	extractHeader.h
+	checksum.c
+	checksum.h
+
+Building:
+	type 'make' or 'make trace' into terminal
+	while in library with all source files
+
+	note: device must also have pcap library
+
+Functionality:
+	prints out packet header information for
+	ethernet header
+	ip header
+	tcp header
+	udp header
+	icmp header
+
+	also verifies the checksum for ip and tcp
+
+Output:
+	prints output to stdout
+	can redirect output with > [new output]
+
